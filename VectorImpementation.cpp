@@ -103,23 +103,6 @@ any max(dynamic_array<any>& a)
 	return tmp;
 }
 
-//template <typename any>
-/*void sort(dynamic_array<any>& a)
-{
-	for (int i = 0; i < a.size() - 1; ++i)
-	{
-		for (int j = 0; j < a.size() - 1; ++j)
-			if (a[j] > a[j + 1])
-			{
-				any* tmp = new any;
-				*tmp = a[j];
-				a[j] = a[j + 1];
-				a[j + 1] = *tmp;
-			}
-	}
-}
-*/
-
 template<typename T>
 void sort(dynamic_array<T>& a)
 {

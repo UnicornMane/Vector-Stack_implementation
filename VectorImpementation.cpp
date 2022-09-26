@@ -113,7 +113,7 @@ void sort(dynamic_array<T>& a)
 }
 
 template <typename any>
-std::ostream operator << (std::ostream& out, dynamic_array<any>& a)
+std::ostream &operator << (std::ostream& out, dynamic_array<any>& a)
 {
 	for (int i = 0; i < a.size(); ++i)
 	{
